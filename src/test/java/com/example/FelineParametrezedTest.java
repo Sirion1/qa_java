@@ -28,6 +28,6 @@ public FelineParametrezedTest (int kittensCount, int kittensCountExpected) {
     Feline feline = new Feline();
     int actual = kittensCount;
     int expected = kittensCountExpected;
-    Assert.assertEquals(kittensCount, kittensCountExpected);
+    Assert.assertEquals(kittensCountExpected, kittensCount);
     }
 }
